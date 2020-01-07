@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springcloud-parent-20200102</artifactId>
+        <groupId>com.aaa.yzq.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>consumer-management-20200102</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>consumer-8070-20200102</module>
+        <module>ribbon-consumer-8071-20200103</module>
+        <module>ribbon-noeureka-consumer-8072-20200103</module>
+        <module>feign-consumer-8073-20200104</module>
+        <module>feign-file-consumer-8074-20200104</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.aaa.yzq.springcloud</groupId>
+            <artifactId>management-model-20200102</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
