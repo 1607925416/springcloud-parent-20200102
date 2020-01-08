@@ -12,6 +12,8 @@
         <module>consumer-management-20200102</module>
         <module>eureka-management-20200102</module>
         <module>management-20200102</module>
+        <module>zuul-8051-20200108</module>
+        <module>zipkin-8041-20200108</module>
     </modules>
     <packaging>pom</packaging>
 

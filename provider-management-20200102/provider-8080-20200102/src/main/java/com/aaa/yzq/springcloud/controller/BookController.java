@@ -21,9 +21,15 @@ import java.util.List;
 public class BookController {
     @Autowired
     private BookService bookService;
+    /**
+     *
+     * @author cat
+     * @date 2020/1/8 15:55
+     * @param :
+     * @return java.util.List<com.aaa.yzq.springcloud.model.Book>
+     */
     @GetMapping("/getAllBook")
     public List<Book> getAllBook(){
-        System.out.println("11111111111111111111111111111111111111111111");
         List<Book> allBook = bookService.getAllBook();
         return allBook;
     }

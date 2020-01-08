@@ -11,5 +11,11 @@
 
     <artifactId>provider-8080-20200102</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
