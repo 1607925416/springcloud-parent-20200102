@@ -14,6 +14,8 @@
         <module>management-20200102</module>
         <module>zuul-8051-20200108</module>
         <module>zipkin-8041-20200108</module>
+        <module>config-server-8031-20200109</module>
+        <module>config-client-8021-20200109</module>
     </modules>
     <packaging>pom</packaging>
 
